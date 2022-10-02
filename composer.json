@@ -62,7 +62,14 @@
     "platform": {
       "php": "7.3.11"
     },
-    "sort-packages": true
+    "sort-packages": true,
+    "allow-plugins": {
+      "magento/*": true,
+      "laminas/*": true,
+      "cweagans/composer-patches": true,
+      "composer/installers": true,
+      "oomphinc/composer-installers-extender": true
+    }
   },
   "extra": {
     "installer-paths": {
